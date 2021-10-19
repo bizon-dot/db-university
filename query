@@ -11,3 +11,6 @@
 6. SELECT * FROM `courses` WHERE `degree_id` = 2 
 
 7. SELECT COUNT(`id`) FROM `departments`; 
+
+8. SELECT COUNT(`id`) FROM `teachers` WHERE `phone` IS NULL; 
+
