@@ -14,7 +14,11 @@
 
 8. SELECT COUNT(`id`) FROM `teachers` WHERE `phone` IS NULL; 
 
-
 9. SELECT * FROM `students` 
     JOIN `degrees` ON `degree_id` = `degrees`.`id` 
     WHERE `degrees`.`name` = 'Corso di Laurea in Economia'; 
+
+10. SELECT *
+    FROM `departments`
+    INNER JOIN `degrees` ON `departments`.`id` = `degrees`.`department_id`
+    WHERE `departments`.`name`= 'Dipartimento di Neuroscienze'
