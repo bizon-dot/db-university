@@ -9,3 +9,5 @@
 5. SELECT * FROM `exams` WHERE `date` = '2020-06-20' AND `hour` > '15.00'; 
 
 6. SELECT * FROM `courses` WHERE `degree_id` = 2 
+
+7. SELECT COUNT(`id`) FROM `departments`; 
